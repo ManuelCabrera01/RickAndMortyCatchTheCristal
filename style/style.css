@@ -1,0 +1,116 @@
+body {
+  background: url("../images/rick_morty_backGround.jpg") no-repeat center center
+    fixed;
+  /*background-image: url("rick_morty_backGround.jpg");*/
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+h1 {
+  font-family: Andale Mono;
+}
+#pregameinstruction {
+  font-family: Andale Mono;
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  background: #fefad5;
+  border-radius: 7px;
+  border: #000000 solid 4px;
+  top: 240px;
+  font-size: 30px;
+}
+#canvas {
+  position: absolute;
+  border: #000000 solid 2px;
+  top: 240px;
+}
+#divcanvas {
+  background: url("../images/spirit_master_background_by_kymotonian-d4elxyc.png");
+  width: 800px;
+  height: 600px;
+  /* position: absolute; */
+}
+
+/* popup style */
+button {
+  font-size: 1.1em;
+  padding: 24px 26px;
+  display: inline-block;
+  position: inherit;
+  margin: 5px;
+  border-radius: 6px;
+  border: solid rgba(0, 0, 0, 0.2);
+  border-width: 1px 1px 5px;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  user-select: none;
+  transition: 0.4s ease;
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.4);
+  border-bottom-width: 8px;
+}
+
+a:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(255, 255, 255, 0.4);
+  border-bottom-width: 2px;
+  transition: 0.1s ease;
+}
+
+.blue {
+  background: hsl(176, 59%, 59%);
+  font-size: 15px;
+}
+.yellow {
+  font-size: 17px;
+  background: hsl(50, 81%, 65%);
+}
+
+#dialogoverlay {
+  display: none;
+  opacity: 0.8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox {
+  display: none;
+  position: fixed;
+  background: #000;
+  border-radius: 7px;
+  width: 550px;
+  z-index: 10;
+}
+#dialogbox > div {
+  background: #fff;
+  margin: 8px;
+}
+#dialogbox > div > #dialogboxhead {
+  background: #fefad5;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+}
+#dialogbox > div > #dialogboxbody {
+  background: #fefad5;
+  font-size: 25px;
+  padding: 25px;
+  color: black;
+}
+#dialogbox > div > #dialogboxfoot {
+  background: #fefad5;
+  padding: 10px;
+  text-align: right;
+}
