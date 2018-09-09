@@ -69,3 +69,4 @@ startButton.onclick = () => {
   canvas.style.visibility = "visible";
   divcanvas.style.visibility = "visible";
 };
+// need a buton to mute the music
