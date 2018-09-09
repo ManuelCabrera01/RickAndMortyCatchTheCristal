@@ -8,7 +8,7 @@ const instructionButton = _("instructionButton");
 const startButton = _("startButton");
 const instructionsT = `instructions`;
 const instructions =
-  "get your shit together, get it all together and put it in a back pack, all your shit, so it's together.  And if you gotta take it some where, take it somewhere, you know, take it to the shit store and sell it, or put it in the shit museum. I don't care what you do, you just gotta get it together.";
+  "get your shit together, get it all together and put it in a back pack, all your shit, so it's together.  And if you gotta take it some where, take it somewhere, you know, take it to the shit store and sell it, or put it in the shit museum. I don't care what you do, you just gotta get it together. for some reason the gh-pages version doesn't work properly to have a better experience a recommend to download the game from my github acount ";
 
 const MWinns = ` Morty winns,extrange but true`;
 const RWinns = `as always Rick winns`;
