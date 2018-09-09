@@ -128,3 +128,4 @@ player2.moveDown = () => {
   this.up = false;
   this.down = true;
 };
+// need to created a constructuc function / class to dray up this file
